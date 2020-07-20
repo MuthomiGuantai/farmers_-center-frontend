@@ -47,7 +47,10 @@ class TopHeader extends Component {
     return (
       <div className="TopHeader">
         <div className="SocialMediaIcons">
-          <i className="fab fa-facebook-f"></i>
+          <a
+            href="https://www.facebook.com/FarmersCentreLimited/"
+            className="fab fa-facebook-f"
+          ></a>
         </div>
         <div>
           <ul className="TopMenu">

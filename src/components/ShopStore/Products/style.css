@@ -1,91 +1,91 @@
-.Content{
-    width: 85%;
-    border-top: 3px solid #000;
-    margin: 0 auto;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+.Content {
+  width: 85%;
+  border-top: 3px solid #000;
+  margin: 0 auto;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
-.ContentTitle{
-    text-align: center;
-    margin: 20px 0;
+.ContentTitle {
+  text-align: center;
+  margin: 20px 0;
 }
-.CategoryTitle{
-    letter-spacing: 2px;
-    font-size: 30px;
-    font-weight: 300;
-    text-transform: capitalize;
-}
-
-
-.ProductArea{
-    display: flex;
-    flex-wrap: wrap;
-}
-.Product{
-    width: 280px;
-    border: 1px solid #cecece;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0 10px 10px 0;   
-}
-.Product > .ProductImage{
-    width: 80%;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-.Product > .ProductImage > img{
-    max-width: 100%;
-    height: 300px;
-}
-.ProductDetails{
-    margin: 20px 0;
+.CategoryTitle {
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: capitalize;
 }
 
-.ContentBody{
-    display: flex;
+.ProductArea {
+  display: flex;
+  flex-wrap: wrap;
 }
-.ContentBody .SideMenu{
-    flex: 2;
+.Product {
+  width: 280px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 10px 10px 0;
 }
-.ContentBody .MainContent{
-    flex: 8;
+.Product > .ProductImage {
+  width: 60%;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
 }
-.SideMenu{
-    border: 1px solid #cecece;
-    margin-right: 10px;
-    box-sizing: border-box;
+.Product > .ProductImage > img {
+  max-width: 100%;
+  height: 300px;
 }
-.SideMenu .SideMenuTitle{
-    font-size: 18px;
-    border-bottom: 1px solid #cecece;
-    padding: 5px 10px;
+.ProductDetails {
+  margin: 20px 0;
 }
-.Filter .FilterTitle{
-    font-size: 16px;
-    font-weight: bold;
-    padding: 5px 10px;
+
+.ContentBody {
+  display: flex;
 }
-.SideMenu ul{
-    position: relative;
+.ContentBody .SideMenu {
+  flex: 2;
 }
-.SideMenu ul li{
-    margin-left: 10px;
-    font-size: 14px;
+.ContentBody .MainContent {
+  flex: 8;
 }
-.SideMenu > ul > li > a:nth-of-type(1){
-    font-weight: bold;
+.SideMenu {
+  border: 1px solid #cecece;
+  margin-right: 10px;
+  box-sizing: border-box;
+  height: 450px;
 }
-.FilterButton{
-    background: #eee;
-    border: 1px solid #cecece;
-    width: 95%;
-    margin: 2px 5px;
-    padding: 5px 0;
-    border-radius: 3px;
-    cursor: pointer;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
+.SideMenu .SideMenuTitle {
+  font-size: 18px;
+  border-bottom: 1px solid #cecece;
+  padding: 5px 10px;
+}
+.Filter .FilterTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+.SideMenu ul {
+  position: relative;
+}
+.SideMenu ul li {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.SideMenu > ul > li > a:nth-of-type(1) {
+  font-weight: bold;
+}
+.FilterButton {
+  background: #32cd32;
+  border: 1px solid #cecece;
+  width: 95%;
+  margin: 2px 5px;
+  padding: 5px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
 }

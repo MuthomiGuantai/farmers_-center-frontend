@@ -1,6 +1,10 @@
-.CategoryList > li{
-    margin-left: 10px;
+.CategoryList > li {
+  margin-left: 10px;
 }
-.CategoryList ul > li{
-    margin-left: 10px;
+.CategoryList ul > li {
+  margin-left: 10px;
+}
+.Categorybox > {
+  display: flex;
+  flex-wrap: wrap;
 }
