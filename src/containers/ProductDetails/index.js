@@ -110,7 +110,7 @@ class ProductDetails extends Component {
             </div>
             <div className="ProductDetails">
               <div className="BreadCrumb">
-                <small>Home > Mobiles > Iphone</small>
+                <small>Home > Category > Details</small>
               </div>
               <p className="ProductTitle">{product.name}</p>
               <p className="ProductPrice">Ksh{product.price}</p>
