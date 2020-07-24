@@ -18,11 +18,15 @@
 }
 
 .ProductArea {
-  display: flex;
-  flex-wrap: wrap;
+  width: 65vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 30px;
 }
 .Product {
-  width: 280px;
+  width: auto;
   border: 1px solid #cecece;
   border-radius: 5px;
   text-align: center;
@@ -30,7 +34,7 @@
 }
 .Product > .ProductImage {
   width: 60%;
-  height: 300px;
+  height: 290px;
   overflow: hidden;
   margin: 0 auto;
 }

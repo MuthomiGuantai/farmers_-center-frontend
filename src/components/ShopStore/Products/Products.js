@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import * as productActions from "../../../store/actions/productActions";
-import Pagination from "./Pagination";
 import { connect } from "react-redux";
 import "./style.css";
 import Product from "./Product";
