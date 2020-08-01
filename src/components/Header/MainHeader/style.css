@@ -1,11 +1,13 @@
 .MainHeader {
   display: flex;
+  flex: auto;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 .SearchOption {
-  width: 400px;
+  width: 350px;
   height: 35px;
   border: 1px solid #cecece;
   border-radius: 5px;
@@ -19,11 +21,11 @@
   border-right: 1px solid #eee;
 }
 .SearchOption > input {
-  width: 60%;
+  width: 50%;
   border: none;
 }
 .SearchOption > button {
-  width: 10%;
+  width: 8%;
   border: none;
   background: transparent;
 }
